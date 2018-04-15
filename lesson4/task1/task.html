@@ -1,0 +1,68 @@
+<html>
+<head>
+    <style>
+        .code {
+            font-size: 87.5%;
+            color: #e83e8c;
+            background-color: #ffe7f2;
+            word-break: break-word;
+            font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+            padding: 2px 5px;
+            border-radius: 5px;
+        }
+
+        .block {
+            padding: 10px;
+            background-color: #eee;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+<h1>Chaines de caractères</h1>
+<p>
+    Nous avons un peu joué avec des nombres,
+    nous allons maintenant approfondir les chaines de caractères.
+</p>
+<p>
+    Une chaines de caractères est entourée pas des doubles quotes
+    <span class="code">ex: "j'aime les pommes"</span>
+</p>
+<p>
+    On a le droit d'utiliser des simples quotes
+    <span class="code">ex: 'et les cerises'</span>
+</p>
+<p>
+    Il faut respecter cette synthaxe d'ouverture et de fermeture de quotes sinon cela va générer une erreur
+</p>
+<pre class="code">
+  File "/Users/dbourdette/PycharmProjects/python_course/lesson4/task1/task.py", line 1
+    "j'aime les pommes
+                     ^
+SyntaxError: EOL while scanning string literal
+</pre>
+<p>
+    Parfois, il y a une simple ou double quote dans la chaine.
+    Dans ce cas, on peut signaler qu'il ne s'agit pas de la gin de la chaine avec une <span class="code">\</span> (antislash),
+    <span class="code">ex: 'j\'aime les pommes'</span>
+</p>
+<p>
+    On peut ranger une chaine de caractères dans une variable <span class="code">ex: preferences = "les pommes"</span>
+</p>
+<p>
+    Multiplier une chaine par un nombre crée une chaine plus longue
+    <span class="code">ex: 4 * "hou " => "hou hou hou hou"</span>
+</p>
+<p>
+    Additionner 2 chaines les raccrochent ensemble (concaténation)
+    <span class="code">ex: "ping" + "pong" => "pingpong"</span>
+</p>
+<div class="block">
+    + et * sont appelés opérateurs. Ils servent a faire des opérations.
+</div>
+<p>
+    Il y a d'autres opérations possibles en fonction du type de données,
+    on verra cela plus tard.
+</p>
+</body>
+</html>

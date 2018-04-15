@@ -1,0 +1,62 @@
+<html>
+<head>
+    <style>
+        .code {
+            font-size: 87.5%;
+            color: #e83e8c;
+            background-color: #ffe7f2;
+            word-break: break-word;
+            font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+            padding: 2px 5px;
+            border-radius: 5px;
+        }
+
+        .block {
+            padding: 10px;
+            background-color: #eee;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+<h1>Listes</h1>
+<p>
+    La liste est un autre type de données, un tout petit peu plus complexe. <br>
+</p>
+<p>
+    <span class="code">ex: courses = ["chocolat", "gateaux", "lait"]</span> :
+    <ul>
+        <li>est une liste de 3 éléments</li>
+        <li>le deuxième élément de cette liste est "gateaux"</li>
+    </ul>
+</p>
+<p>
+    La notation [ ] (crochet) permet d'accéder à un élément de la liste <span class="code">ex: courses[1] == "gateaux"</span>
+</p>
+<div class="block">
+    Attention: le premier élément est à l'index 0 !!!
+</div>
+<p>
+    Il est possible de changer une valeur avec la même notation
+    <span class="code">ex: courses[1] = "épinards"</span>
+</p>
+<p>
+    Une liste peut contenir des nombres et des chaines en même temps
+    <span class="code">ex: divers = ["un", 2, 3, "quatre"]</span>
+</p>
+<p>
+    On peut additionner des listes <span class="code">ex: ["a", "b"] + ["c"] == ["a", "b", "c"]</span>
+    (on parle alors de concaténation)
+</p>
+<p>
+    Poura ajouter un élément à la liste, on appelle la méthode append
+    <span class="code">ex: [1, 2].append(3) == [1, 2, 3]</span>
+</p>
+<div class="block">
+    Une méthode est un petit morceau de code qui agit sur un objet
+</div>
+<p>
+    Pour supprimer, c'est un peu différent, on fait <span class="code">ex: del courses[1]</span>
+</p>
+</body>
+</html>

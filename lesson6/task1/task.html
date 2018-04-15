@@ -1,0 +1,47 @@
+<html>
+<head>
+    <style>
+        .code {
+            font-size: 87.5%;
+            color: #e83e8c;
+            background-color: #ffe7f2;
+            word-break: break-word;
+            font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+            padding: 2px 5px;
+            border-radius: 5px;
+        }
+
+        .block {
+            padding: 10px;
+            background-color: #eee;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+<h1>Dictionnaires</h1>
+<p>
+    Les dictionnaires permettent de ranger les données par clés - valeurs
+</p>
+<p>
+    <span class="code">ex: scores = {"pierre": 3, "jean": 10}</span> :
+    <ul>
+        <li>c'est une variable <span class="code">scores</span> qui pointe vers un dictionnaire</li>
+        <li>la clée de la première est <span class="code">"pierre"</span> et sa valeur est 3</li>
+        <li>la clée de la première est <span class="code">"jean"</span> et sa valeur est 10</li>
+    </ul>
+</p>
+<p>
+    Les clées et les valeurs peuvent être de n'importe quels types : nombres, chaines, objets...
+</p>
+<p>
+    Comme pour les listes, il est possible de lire une valeur avec la notation crochets <span class="code">print(scores["pierre"])</span>.
+</p>
+<p>
+    Ou bien de changer la valeur d'une entrée avec la même notation <span class="code">ex: scores["pierre"] = 5</span>
+</p>
+<p>
+    Et enfin, on peut supprimer une entrée avec le mot clée del <span class="code">ex: del scores["pierre"]</span>
+</p>
+</body>
+</html>
