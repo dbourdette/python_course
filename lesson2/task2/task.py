@@ -1,0 +1,1 @@
+resultat = 0
